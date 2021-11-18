@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: black;
+    padding: 10px;
+}
+.container ul li a{
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 25px;
+
+}
+.container ul li{
+    display: inline;
+}
+.first{
+    margin-left: 50px;
+}
+.last{
+    position: absolute;
+    right: 50px;
+}
+.container ul li a:hover{
+    color: coral;
+}
+.center{
+    background-color: black;
+    color: white;
+    height:580px ;
+}
+.word{
+    position: absolute;
+    top: 25%;
+    left: 3%;
+  
+}
+h1{
+    font-family: sans-serif;
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+h2{
+    font-size: 50px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    color: seagreen;
+}
+h3{
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+a{
+    text-decoration: none;
+    color: wheat;
+    font-family: sans-serif;
+    font-size: 24px;
+}
+.photo{
+    position: absolute;
+    right: 3%;
+    top: 100px;
+}
+.footer{
+    background-color: rgb(10, 10, 10);
+    height: 170px;
+}
+.footer p{
+    color:wheat;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.left{
+    width: 30%;
+}
+.markaz{
+    width: 30%;
+    position: absolute;
+    left: 33%;
+    bottom: -175px;
+}
+.right{
+    width: 30%;
+    position: absolute;
+    bottom: -143px;
+    right: 1%;
+}
