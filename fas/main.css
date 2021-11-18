@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    padding: 25px;
+    margin-left: 25px;
+
+}
+.container img{
+    height: 48px;
+}
+.dan{
+    position: absolute;
+    top: 20px;
+    left: 110px;
+   font-size: 24px;
+}
+.fast{
+    position: absolute;
+    top: 50px;
+    left: 110px;
+}
+.sideinfo{
+    position: absolute;
+    right: 50px;
+    top: 20px;
+}
+.sideinfo img{
+    height: 22px;
+    position: absolute;
+    top: 15px;
+    right: 70px;
+}
+.pubg{
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    display: inline;
+    width: 150px;
+}
+.livik{
+    position: absolute;
+    top: 20px;
+    right: 0px;
+}
+.main{
+    width: 100%;
+    min-height: 350px;
+    background-color: black;
+}
+.main p, h1{
+    color: white;
+    font-size: 36px;
+    font-family: sans-serif;
+    margin-left: 100px;
+}
+.p1{
+    padding-top: 60px;
+}
+.fas{
+    font-size: 64px;
+}
+.icon{
+    margin-left: 100px;
+    margin-top: 60px;
+}
+.icon p{
+    font-size: 18px;
+}
+.photo1{
+    position: absolute;
+    bottom: 160px;
+    left: 100px;
+}
+.detail{
+    width: 350px;
+    height: 400px;
+    background-color: #efefef;
+    position: absolute;
+    top: 170px;
+    right: 150px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px 0;
+}
+h3{
+    font-size: 22px;
+    font-family: sans-serif;
+    margin-left: 20px;
+    padding-top: 25px;
+    margin-bottom: 20px;
+}
+input{
+    width: 300px;
+    height: 50px;
+    margin-bottom: 50px;
+    margin-left: 22px;
+    border-radius: 5px;
+    border: 2px solid #c9c2c2 ;
+}
+.next{
+    background-color: rgb(159, 235, 235);
+    border: 2px solid rgb(60, 151, 151);
+    box-shadow: 0 0 10px 0;
+} 
+span{
+    color: rgb(44, 143, 143);
+}
+.detail ul li{
+    list-style-type: none;
+    margin-left: 50px;
+}
