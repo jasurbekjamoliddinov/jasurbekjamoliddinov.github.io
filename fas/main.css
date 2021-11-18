@@ -1,113 +1,216 @@
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
-.container{
+.con{
     width: 100%;
-    padding: 25px;
-    margin-left: 25px;
-
-}
-.container img{
-    height: 48px;
-}
-.dan{
-    position: absolute;
-    top: 20px;
-    left: 110px;
-   font-size: 24px;
-}
-.fast{
-    position: absolute;
-    top: 50px;
-    left: 110px;
-}
-.sideinfo{
-    position: absolute;
-    right: 50px;
-    top: 20px;
-}
-.sideinfo img{
-    height: 22px;
-    position: absolute;
-    top: 15px;
-    right: 70px;
-}
-.pubg{
-    position: absolute;
-    top: 20px;
-    right: 100px;
-    display: inline;
-    width: 150px;
-}
-.livik{
-    position: absolute;
-    top: 20px;
-    right: 0px;
-}
-.main{
-    width: 100%;
-    min-height: 350px;
-    background-color: black;
-}
-.main p, h1{
-    color: white;
-    font-size: 36px;
-    font-family: sans-serif;
-    margin-left: 100px;
-}
-.p1{
-    padding-top: 60px;
-}
-.fas{
-    font-size: 64px;
-}
-.icon{
-    margin-left: 100px;
-    margin-top: 60px;
-}
-.icon p{
-    font-size: 18px;
-}
-.photo1{
-    position: absolute;
-    bottom: 160px;
-    left: 100px;
-}
-.detail{
-    width: 350px;
-    height: 400px;
+    min-height: 70px;
     background-color: #efefef;
-    position: absolute;
-    top: 170px;
-    right: 150px;
-    border-radius: 15px;
+    padding: 20px;
     box-shadow: 0 0 5px 0;
 }
+.con img{
+    padding-left: 50px;
+    width: 250px;
+}
+body{
+    background-color: white;
+    height: 1000px;
+}
+.con h1, p{
+    position: absolute;
+    top: 15px;
+    left: 120px;
+}
+.con p{
+    position: absolute;
+    top: 52px;
+    left: 120px;
+    font-family: sans-serif;
+} 
+.right{
+    position: absolute;
+    right: 150px;
+    top: -5px;
+    width: 300px;
+}
+span{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+}
+.top{
+    background-color: rgb(1, 1, 41);
+    height: 380px; 
+}
+h2{
+    font-size: 35px;
+    color: #efefef;
+    position: absolute;
+    top: 185px;
+    left: 100px;
+    font-family: sans-serif;
+}
 h3{
-    font-size: 22px;
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    top: 235px;
+    left: 100px;
+    font-family: sans-serif;
+}
+h4{
+    font-size: 35px;
+    color: #efefef;
+    position: absolute;
+    top: 315px;
+    left: 100px;
+    font-family: sans-serif;
+}
+#k{
+    position: absolute;
+    top: 400px;
+    left: 100px;
+    border-radius: 20px;
+    width: 65px;
+}
+h5{
+    position: absolute;
+    color: #efefef;
+    top: 435px;
+    left: 180px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.span2{
+    margin-top: 50px;
+}
+.p5{
+    position: absolute;
+    color: #efefef;
+    top: 410px;
+    left: 180px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+#img2{
+    width: 100px;
+    position: absolute;
+    top: 47px;
+    right: -80px;
+}
+.cantainer{
+    width: 380px;
+    height: 450px;
+    background-color: white;
+    position: absolute;
+    left: 850px;
+    border-radius: 10px;
+    top: 200px;
+    box-shadow: 0 0 5px -2px;
+}
+h6{
+    font-size: 25px;
+    margin-top: 20px;
     font-family: sans-serif;
     margin-left: 20px;
-    padding-top: 25px;
-    margin-bottom: 20px;
 }
-input{
-    width: 300px;
-    height: 50px;
-    margin-bottom: 50px;
-    margin-left: 22px;
+#number{
+    width: 330px;
+    margin-left: 20px;
+    box-shadow: 0 0 2px rgb(0, 255, 128);
+    border: rgb(0, 255, 115);
+    height: 70px;
     border-radius: 5px;
-    border: 2px solid #c9c2c2 ;
+    margin-top: 20px;
 }
-.next{
-    background-color: rgb(159, 235, 235);
-    border: 2px solid rgb(60, 151, 151);
-    box-shadow: 0 0 10px 0;
-} 
-span{
-    color: rgb(44, 143, 143);
+#submit{
+    width: 330px;
+    height: 65px;
+    position: absolute;
+    left: 20px;
+    top: 190px;
+    border-radius: 5px;
+    background-color: rgb(7, 252, 190);
+    font-size: 20px;
+    color: rgb(1, 1, 41);
+    font-family: sans-serif;
+    border: rgb(7, 252, 190);
 }
-.detail ul li{
-    list-style-type: none;
-    margin-left: 50px;
+.soya{
+    background-color: #efefef;
+    width: 380px;
+    height: 1px;
+    position: absolute;
+    margin-top: 140px;
+}
+.h62{
+    position: absolute;
+    top: 290px;
+    font-size: 16px;
+    left: 30px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+a{
+    color: #0fa;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+.h63{
+    position: absolute;
+    top: 320px;
+    font-size: 16px;
+    left: 30px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+.h64{
+    position: absolute;
+    top: 350px;
+    font-size: 16px;
+    left: 30px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+#bootm2{
+    position: absolute;
+    top: 400px;
+    left: 30px;
+    width: 330px;
+
+}
+#buyer{
+    position: absolute;
+    left: 60px;
+}
+.tetx{
+    position: absolute;
+    top: 800px;
+    width: 620px;
+    left: 30px;
+}
+.p65{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    top: 60px;
+    font-size: 18px;
+}
+.h65{
+    position: absolute;
+    left: 30px;
+    width: 600px;
+    font-size: 26px;
+}
+.a65{
+    position: absolute;
+    left: 50px;
+    top: 120px;
+    color: rgb(78, 78, 240);
+    font-family: sans-serif;
+}
+#photoo0{
+    position: absolute;
+    top: 1050px;
+    left: 80px;
 }
