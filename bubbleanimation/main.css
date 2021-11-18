@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    background-image: url(background.png);
+    width: 100%;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.main img{
+    width: 100px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+button{
+    width: 150px;
+    height: 50px;
+    border-radius: 22px;
+    position: absolute;
+    top: 30px;
+    right: 100px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.sidebar{
+    background: rgb(6, 129, 129);
+    width: 60px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.menu{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 5px;
+    right: 7px;
+}
+.menu img{
+    width: 30px;
+    height: 30px;
+}
+.center{
+    position: absolute;
+    top: 30%;
+    right: 11px;
+}
+.center img{
+    width: 30px;
+    height: 30px;
+}
