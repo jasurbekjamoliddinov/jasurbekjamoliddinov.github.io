@@ -1,0 +1,56 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: white;
+}
+.kalculyottor{
+    position: relative;
+    display: grid;
+    border-radius: 50%;
+}
+.kalculyottor .value{
+    grid-column: span 4;
+    height: 100px;
+    text-align: right;
+    outline: none;
+    padding: 10px;
+    font-size: 10px;
+}
+.kalculyottor span{
+    display: grid;
+    width: 60px;
+    height: 64px;
+    color: black;
+    background: white;
+    place-items: center;
+    border: 1px solid rgb(0, 0, 0, .1)
+}
+/*.kalculyottor span.nume{
+    grid-row: span2;
+    height: 128px;
+}*/
+.kalculyottor span:active{
+    color:coral;
+}
+.kalculyottor span.clear{
+    grid-column: span 2;
+    width: 120px;
+    background: red;
+}
+.kalculyottor span.plus{
+    grid-row: span;
+
+}
+.kalculyottor span.equal{
+    background: green;
+    border-radius: 45%;
+}

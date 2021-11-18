@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.can{
+    background-color: #efefef;
+    width: 80%;
+    margin: 0 auto;
+    min-height: 38em;
+    box-shadow: 0 0 28px 0 ;
+}
+.left h1{
+    color: rgb(9, 124, 255);
+    font-size: 70px;
+    font-family: sans-serif;
+}
+.left p{
+    font-family: sans-serif;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+.left{
+    padding-top: 200px;
+    padding-left: 50px;
+}
+.right{
+    background-color: #fff;
+    width: 27%;
+    height: 380px;
+    position: absolute;
+    right: 180px;
+    top: 150px;
+    border-radius: 15px;
+    border: solid rgb(238, 228, 228);
+}
+input{
+    width: 310px;
+    height: 45px;
+    margin: 10px auto;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: solid rgb(238, 228, 228);
+}
+#submit{
+    background-color: rgb(9, 124, 255);
+    color: #efefef;
+    font-size: 22px;
+    border: none;
+    padding: 10px;
+}
+.right p{
+   color:  rgb(9, 124, 255);
+   font-family: sans-serif;
+   font-size: 16px;
+   margin-left: 130px;
+   margin-top: 15px;
+}
+.line{
+    background-color: rgb(238, 228, 228);
+    height: 2px;
+    width: 320px;
+    margin-left: 22px;
+    margin-top: 15px;
+}
+#accound{
+    background-color: rgba(30, 206, 30, 0.897);
+    width: 230px;
+    border: none;
+    font-family: sans-serif;
+    height: 50px;
+    margin-left: 70px;
+    font-size: 16px;
+}
+.p2{
+    font-size: 16px;
+    position: absolute;
+    right: 200px;
+    top: 550px;
+}
+button{
+    background-color: black;
+    width: 310px;
+    height: 45px;
+}
+a{
+    color: white;
+}
